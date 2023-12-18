@@ -1,4 +1,4 @@
-<div id="footer-one" class="wrapper">
+<div id="footer" class="wrapper">
     <div class="container d-flex justify-content-between">
         <div class="d-flex">
             <div>
@@ -50,7 +50,7 @@
             </div>
         </div>
         <div>
-            <img class=" img-fluid" src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="">
+            <img class=" img-fluid" src="{{ Vite::asset('public/images/dc-logo-bg.png') }}" alt="">
         </div>
     </div>
 </div>

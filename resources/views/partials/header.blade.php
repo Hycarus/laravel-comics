@@ -2,7 +2,7 @@
     <div class="container">
         <div class="d-flex justify-content-between align-items-center">
             <div class="py-3">
-                <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC logo">
+                <img src="{{ Vite::asset('public/images/dc-logo.png') }}" alt="DC logo">
             </div>
             <div class="my-div">
                 <ul class="d-flex justify-content-between">
