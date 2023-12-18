@@ -18,7 +18,10 @@
 <body>
     @include('partials.header')
     @yield('content')
-    @include('partials.footer')
+
 </body>
+<footer>
+    @include('partials.footer')
+</footer>
 
 </html>
