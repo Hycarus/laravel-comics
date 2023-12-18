@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
-    @include('partials.jumbo')
+    @include('partials.hero')
     <main>
         <div class="container d-flex">
             <div class="row my-5">
@@ -17,6 +17,6 @@
             <button>LOAD MORE</button>
         </div>
     </main>
-    @include('partials.service')
+    @include('partials.contacts')
 
 @endsection
