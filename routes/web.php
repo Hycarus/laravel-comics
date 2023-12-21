@@ -15,4 +15,19 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
+Route::get('/comics', function () {
+    return view('comics.index');
+})->name('comics');
+
+Route::get('/products/{id}', function ($id) {
+    $comics = config('comics.key');
+    //cercare prodotto con quell'id
+    // if ($id >= 0 && $id < count($products)) {
+    $comic = $comics[$id];
+
+    return view('comics.show', compact('comic'));
+    // } else {
+    //     abort(404);
+    // }
+})->name('comics.show');
