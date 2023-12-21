@@ -151,3 +151,17 @@ main {
         }
     }
 }
+.selected-page {
+    color: $color_primary !important;
+    border-bottom: 5px solid $color_primary;
+    padding: 60px 10px 55px 10px;
+
+    &:hover {
+        color: $color_primary;
+        border-bottom: 5px solid $color_primary;
+        padding: 60px 10px 55px 10px;
+    }
+    a {
+        color: $color_primary;
+    }
+}
