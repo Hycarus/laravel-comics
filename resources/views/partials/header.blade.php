@@ -10,7 +10,7 @@
                         <a href="{{ route('home') }}">HOME</a>
                     </li>
                     <li class="{{ Route::currentRouteName() == 'comics' ? 'selected-page' : '' }}">
-                        <a href="{{ route('comics') }}">COMICS</a>
+                        <a href="{{ route('comics.index') }}">COMICS</a>
                     </li>
                     <li>MOVIES</li>
                     <li>TV</li>
